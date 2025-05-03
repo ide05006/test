@@ -3,7 +3,7 @@
 import streamlit as st
 
 st.write("Hello, *World!* :sunglasses:")
-
+st.set_page_config()
 
 st.write("파이썬")
 "# 파이썬"
@@ -17,6 +17,8 @@ st.html("<h1>파이썬</h1>")
 st.html("<h2>파이썬</h2>")
 
 import streamlit as st
+
+st.sidebar.write("사이드바")
 
 st.latex(r'''
     a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
